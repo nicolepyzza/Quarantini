@@ -112,7 +112,7 @@ if (top.location.pathname === "/Quarantini/drink.html") {
         console.log(randomGenre);
 
         $.ajax({
-            url: "https://api.themoviedb.org/3/discover/movie?with_genres=" + randomGenre + "&api_key=e8f1cf6169288a814923ee8e5fe9e6f9&page=" + page,
+            url: "https://api.themoviedb.org/3/discover/movie?with_genres=" + randomGenre + "&api_key=e8f1cf6169288a814923ee8e5fe9e6f9&sort_by=primary_release_date.desc=2020-03-31&page=" + page,
             method: "GET"
         }).then(function(response) {
 
