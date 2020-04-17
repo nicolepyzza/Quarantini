@@ -102,17 +102,17 @@ if (top.location.pathname === "/Quarantini/drink.html") {
             $(".centered").append(quoteOnScreen);
         })
     })
-} else if (top.location.pathname === "/Quarantini/movie.html") {
+} else if (top.location.pathname === "/movie.html") {
     $(document).ready(function() {
 
-        var genres = [28, 12, 16, 35, 80, 99, 18, 10751, 14, 36, 27, 1042, 9648, 10749, 878, 10770, 53, 10752, 37];
-        var page = Math.floor(Math.random() * 500) + 1;
+        var genres = [28, 12, 16, 35, 80, 99, 18, 10751, 14, 36, 27, 9648, 10749, 878, 10770, 53, 10752, 37];
+        var page = Math.floor(Math.random() * 270) + 1;
 
         var randomGenre = genres[Math.floor(Math.random() * genres.length)];
         console.log(randomGenre);
 
         $.ajax({
-            url: "https://api.themoviedb.org/3/discover/movie?with_genres=" + randomGenre + "&api_key=e8f1cf6169288a814923ee8e5fe9e6f9&sort_by=primary_release_date.desc=2020-03-31&page=" + page,
+            url: "https://api.themoviedb.org/3/discover/movie?with_genres=" + randomGenre + "&api_key=e8f1cf6169288a814923ee8e5fe9e6f9&page=" + page,
             method: "GET"
         }).then(function(response) {
 
