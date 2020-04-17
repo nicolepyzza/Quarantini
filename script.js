@@ -70,7 +70,7 @@ if (top.location.pathname === "/drink.html") {
     $(document).ready(function() {
 
         $.ajax({
-            url: "http://www.boredapi.com/api/activity?type=relaxation&type=education&type=recreational&type=cooking&type=busywork&price=0.0",
+            url: "https://www.boredapi.com/api/activity?type=relaxation&type=education&type=recreational&type=cooking&type=busywork&price=0.0",
             method: "GET"
         }).then(function(response) {
 
