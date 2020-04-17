@@ -1,0 +1,78 @@
+.background {
+    background-image: url("./images/background.png");
+    background-repeat: repeat;
+}
+
+.logo {
+    margin-top: 70px;
+}
+
+.back {
+    background-color: #5862bd;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.recipe {
+    font-size: 20px;
+    overflow-wrap: anywhere;
+}
+
+
+i {
+    color: white;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #585858;
+}
+
+h2, h3 {
+    font-weight: bolder;
+    width: 400px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none !important;
+    color: #585858 !important;
+}
+
+p{
+    width: 400px;
+}
+/* Media Query for Mobile only */
+@media only screen and (max-width: 768px) {
+    .centered {
+        position: absolute;
+        top: 45%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .postit {
+        width: 300px;
+    }
+    h2, h3, p {
+        font-weight: normal;
+        width: 200px;
+    }
+    #alcoholic, .recipe {
+        display: none;
+    }
+    .joke {
+        font-size: 20px;
+    }
+}
