@@ -1,4 +1,4 @@
-if (top.location.pathname === "/drink.html") {
+if (top.location.pathname === "/Quarantini/drink.html") {
     $(document).ready(function() {
         
         $.ajax({
@@ -48,7 +48,7 @@ if (top.location.pathname === "/drink.html") {
             $(".centered").append(drink);
         });
     })
-} else if (top.location.pathname === "/joke.html") {
+} else if (top.location.pathname === "/Quarantini/joke.html") {
     $(document).ready(function() {
 
         $.ajax({
@@ -66,7 +66,7 @@ if (top.location.pathname === "/drink.html") {
         })
 
     })
-} else if (top.location.pathname === "/bored.html") {
+} else if (top.location.pathname === "/Quarantini/bored.html") {
     $(document).ready(function() {
 
         $.ajax({
@@ -82,7 +82,7 @@ if (top.location.pathname === "/drink.html") {
 
         })
     })
-} else if (top.location.pathname === "/quote.html") {
+} else if (top.location.pathname === "/Quarantini/quote.html") {
     $(document).ready(function() {
 
         $.ajax({
@@ -102,7 +102,7 @@ if (top.location.pathname === "/drink.html") {
             $(".centered").append(quoteOnScreen);
         })
     })
-} else if (top.location.pathname === "/movie.html") {
+} else if (top.location.pathname === "/Quarantini/movie.html") {
     $(document).ready(function() {
 
         var genres = [28, 12, 16, 35, 80, 99, 18, 10751, 14, 36, 27, 1042, 9648, 10749, 878, 10770, 53, 10752, 37];
@@ -127,7 +127,7 @@ if (top.location.pathname === "/drink.html") {
             $(".centered").append(movie);
         })
     })
-} else if (top.location.pathname === "/predict.html") {
+} else if (top.location.pathname === "/Quarantini/predict.html") {
     $(document).ready(function() {
 
         var randomAmt = Math.floor(Math.random() * 2000) + 90;
