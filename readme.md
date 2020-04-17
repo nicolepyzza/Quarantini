@@ -44,4 +44,4 @@ THEN I get back to the homepage
 ```
 
 ## Deployed at
-https://nicoleobom.github.io/quarantini
+https://nicoleobom.github.io/Quarantini
