@@ -63,7 +63,7 @@ p{
         text-align: center;
     }
     .postit {
-        width: 300px;
+        width: 400px !important;
     }
     h2, h3, p {
         font-weight: normal;
@@ -74,5 +74,20 @@ p{
     }
     .joke {
         font-size: 20px;
+    }
+    img {
+        width: 300px !important;
+    }
+    .logo {
+        text-align: center;
+    }
+    .right {
+        transform: rotate(10deg);
+    }
+    .left {
+        transform: rotate(-10deg);
+    }
+    .content {
+        margin-top: 20px;
     }
 }
