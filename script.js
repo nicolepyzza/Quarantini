@@ -139,7 +139,7 @@ if (top.location.pathname === "/Quarantini/drink.html") {
     })
 }
 
-if (top.location.pathname === "/Quarantini/index.html") {
+if (top.location.pathname === "/Quarantini") {
     $(document).ready(function() {
         var timer;
         loaderFunction();
