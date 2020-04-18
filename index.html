@@ -8,8 +8,9 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     </head>
-    <body class="background">
-        <div class="container">
+    <body style="margin:0" class="background">
+        <div id="loader"><img src="./images/favicon.png" width="100px"></div>
+        <div class="container animate-bottom" style="display:none;">
             <div class="row logo">
                 <div class="col-sm-12">
                     <a href="#"><img width="100%" src="images/logo.png"/></a>
@@ -44,8 +45,13 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer style="display:none;">
             <p style="font-size:20px">&copy; 2020 Nicole O'Bomsawin</p>
         </footer>
     </body>
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </html>

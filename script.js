@@ -138,3 +138,20 @@ if (top.location.pathname === "/Quarantini/drink.html") {
             $(".centered").append(days);
     })
 }
+
+if (top.location.pathname === "/Quarantini/index.html") {
+    $(document).ready(function() {
+        var timer;
+        loaderFunction();
+
+        function loaderFunction() {
+            timer = setTimeout(showPage, 1500);
+        }
+        
+        function showPage() {
+            $("#loader").css("display", "none");
+            $(".container").css("display", "block");
+            $("footer").css("display", "block");
+        }
+    })
+}
